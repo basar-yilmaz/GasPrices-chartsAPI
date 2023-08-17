@@ -1,0 +1,45 @@
+{% extends 'base.html' %} {% block content %}
+
+<div id="container" style="width: 80%">
+  <canvas id="bar-chart" data-url="{% url "bar-chart-data" %}"></canvas>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+  $(function () {
+    const $pricingChart = $("#bar-chart");
+    $.ajax({
+      url: $pricingChart.data("url"),
+      success: function (data) {
+        const ctx = $pricingChart[0].getContext("2d");
+
+        new Chart(ctx, {
+          type: "bar",
+          data: {
+            labels: data.labels,
+            datasets: [
+              {
+                label: "Price",
+                backgroundColor: "blue",
+                data: data.data,
+              },
+            ],
+          },
+          options: {
+            responsive: true,
+            legend: {
+              position: "top",
+            },
+            title: {
+              display: true,
+              text: "Pricing Bar Chart",
+            },
+          },
+        });
+      },
+    });
+  });
+</script>
+
+{% endblock content %}

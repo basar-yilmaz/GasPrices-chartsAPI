@@ -1,0 +1,290 @@
+{
+  "success": true,
+  "result": [
+    {
+      "lpg": {
+        "locale": "72.00 ALL",
+        "euro": "0.584"
+      },
+      "diesel": {
+        "locale": "169.00 ALL",
+        "euro": "1.370"
+      },
+      "unlead_95": {
+        "locale": "172.00 ALL",
+        "euro": "1.395"
+      },
+      "country": "Albania"
+    },
+    {
+      "lpg": {
+        "locale": "9.00 DZD",
+        "euro": "0.067"
+      },
+      "diesel": {
+        "locale": "13.70 DZD",
+        "euro": "0.103"
+      },
+      "unlead_95": {
+        "locale": "22.60 DZD",
+        "euro": "0.169"
+      },
+      "country": "Algeria"
+    },
+    {
+      "lpg": {
+        "locale": "20.00 ARS",
+        "euro": "0.206"
+      },
+      "diesel": {
+        "locale": "40.50 ARS",
+        "euro": "0.416"
+      },
+      "unlead_95": {
+        "locale": "45.80 ARS",
+        "euro": "0.473"
+      },
+      "country": "Argentina"
+    },
+    {
+      "lpg": {
+        "locale": "1.20 AUD",
+        "euro": "0.738"
+      },
+      "diesel": {
+        "locale": "1.50 AUD",
+        "euro": "0.923"
+      },
+      "unlead_95": {
+        "locale": "1.70 AUD",
+        "euro": "1.049"
+      },
+      "country": "Australia"
+    },
+    {
+      "lpg": {
+        "locale": "4.60 BRL",
+        "euro": "0.737"
+      },
+      "diesel": {
+        "locale": "4.90 BRL",
+        "euro": "0.783"
+      },
+      "unlead_95": {
+        "locale": "5.30 BRL",
+        "euro": "0.847"
+      },
+      "country": "Brazil"
+    },
+    {
+      "lpg": {
+        "locale": "2.60 CAD",
+        "euro": "1.741"
+      },
+      "diesel": {
+        "locale": "1.10 CAD",
+        "euro": "0.737"
+      },
+      "unlead_95": {
+        "locale": "1.20 CAD",
+        "euro": "0.802"
+      },
+      "country": "Canada"
+    },
+    {
+      "lpg": {
+        "locale": "0.74 CNY",
+        "euro": "0.094"
+      },
+      "diesel": {
+        "locale": "0.96 CNY",
+        "euro": "0.122"
+      },
+      "unlead_95": {
+        "locale": "1.04 CNY",
+        "euro": "0.132"
+      },
+      "country": "China"
+    },
+    {
+      "lpg": {
+        "locale": "13.80 INR",
+        "euro": "0.158"
+      },
+      "diesel": {
+        "locale": "15.20 INR",
+        "euro": "0.174"
+      },
+      "unlead_95": {
+        "locale": "16.50 INR",
+        "euro": "0.188"
+      },
+      "country": "India"
+    },
+    {
+      "lpg": {
+        "locale": "1.20 JPY",
+        "euro": "0.009"
+      },
+      "diesel": {
+        "locale": "1.40 JPY",
+        "euro": "0.011"
+      },
+      "unlead_95": {
+        "locale": "1.60 JPY",
+        "euro": "0.013"
+      },
+      "country": "Japan"
+    },
+    {
+      "lpg": {
+        "locale": "5.00 MXN",
+        "euro": "0.197"
+      },
+      "diesel": {
+        "locale": "6.50 MXN",
+        "euro": "0.257"
+      },
+      "unlead_95": {
+        "locale": "7.00 MXN",
+        "euro": "0.277"
+      },
+      "country": "Mexico"
+    },
+    {
+      "lpg": {
+        "locale": "1.00 EGP",
+        "euro": "0.053"
+      },
+      "diesel": {
+        "locale": "2.10 EGP",
+        "euro": "0.112"
+      },
+      "unlead_95": {
+        "locale": "2.20 EGP",
+        "euro": "0.117"
+      },
+      "country": "Egypt"
+    },
+    {
+      "lpg": {
+        "locale": "1.50 GBP",
+        "euro": "1.759"
+      },
+      "diesel": {
+        "locale": "1.65 GBP",
+        "euro": "1.932"
+      },
+      "unlead_95": {
+        "locale": "1.70 GBP",
+        "euro": "1.986"
+      },
+      "country": "United Kingdom"
+    },
+    {
+      "lpg": {
+        "locale": "1.20 CHF",
+        "euro": "1.115"
+      },
+      "diesel": {
+        "locale": "1.50 CHF",
+        "euro": "1.393"
+      },
+      "unlead_95": {
+        "locale": "1.60 CHF",
+        "euro": "1.493"
+      },
+      "country": "Switzerland"
+    },
+    {
+      "lpg": {
+        "locale": "6.00 IDR",
+        "euro": "0.003"
+      },
+      "diesel": {
+        "locale": "7.20 IDR",
+        "euro": "0.004"
+      },
+      "unlead_95": {
+        "locale": "7.50 IDR",
+        "euro": "0.004"
+      },
+      "country": "Indonesia"
+    },
+    {
+      "lpg": {
+        "locale": "1.10 KRW",
+        "euro": "0.001"
+      },
+      "diesel": {
+        "locale": "1.30 KRW",
+        "euro": "0.001"
+      },
+      "unlead_95": {
+        "locale": "1.50 KRW",
+        "euro": "0.001"
+      },
+      "country": "South Korea"
+    },
+    {
+      "lpg": {
+        "locale": "1.20 TRY",
+        "euro": "0.107"
+      },
+      "diesel": {
+        "locale": "1.30 TRY",
+        "euro": "0.116"
+      },
+      "unlead_95": {
+        "locale": "1.40 TRY",
+        "euro": "0.125"
+      },
+      "country": "Turkey"
+    },
+    {
+      "lpg": {
+        "locale": "5.50 RUB",
+        "euro": "0.061"
+      },
+      "diesel": {
+        "locale": "6.80 RUB",
+        "euro": "0.076"
+      },
+      "unlead_95": {
+        "locale": "7.20 RUB",
+        "euro": "0.080"
+      },
+      "country": "Russia"
+    },
+    {
+      "lpg": {
+        "locale": "4.20 ZAR",
+        "euro": "0.258"
+      },
+      "diesel": {
+        "locale": "4.60 ZAR",
+        "euro": "0.282"
+      },
+      "unlead_95": {
+        "locale": "4.90 ZAR",
+        "euro": "0.301"
+      },
+      "country": "South Africa"
+    },
+    {
+      "lpg": {
+        "locale": "8.50 USD",
+        "euro": "0.718"
+      },
+      "diesel": {
+        "locale": "10.20 USD",
+        "euro": "0.863"
+      },
+      "unlead_95": {
+        "locale": "11.00 USD",
+        "euro": "0.930"
+      },
+      "country": "United States"
+    }
+  ]
+}

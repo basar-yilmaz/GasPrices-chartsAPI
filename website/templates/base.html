@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>{% block title %}Django-Chart.js Example{% endblock %}</title>
+  </head>
+  <body>
+    <nav>
+      <a href="{% url 'bar-chart' %}">Bar Chart Ajax|</a>
+      <a href="{% url 'line-chart' %}">Line Chart Ajax|</a>
+      <a href="{% url 'pie-chart' %}">Pie Chart Ajax|</a>
+      <a href="{% url 'pie-chart-embedded' %}">Pie Chart Embedded</a>
+    </nav>
+
+    {% block content %}{% endblock %}
+  </body>
+</html>

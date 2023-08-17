@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div id="container" style="width: 80%">
+    <canvas id="line-chart" data-url="{% url "line-chart-data" %}"></canvas>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+
+
+
+    $(function () {
+        const $pricingChart = $("#line-chart");
+        $.ajax({
+            url: $pricingChart.data("url"),
+            success: function (data) {
+                const ctx = $pricingChart[0].getContext("2d");
+                const config = {
+                    type: 'line',
+                    data: {
+                        labels: data.labels,
+                        datasets: [
+                            {
+                                label: "Pricing",
+                                data: data.data,
+                                borderColor: 'rgb(75, 192, 192)',
+                                fill: false,
+                            }
+                        ]
+                    },
+                    options: {
+                        responsive: true,                        
+                        scales: {
+                            y: { 
+                                ticks: {
+                                    stepSize: 0.1,
+                                }
+                            }
+                        }
+                    }
+                };
+
+                new Chart(ctx, config);
+            },
+        });
+    });
+</script>
+
+{% endblock content %}
